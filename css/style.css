@@ -73,7 +73,7 @@ section {
 }
 .welcome .left p {
   font-size: 25px;
-  line-height: 120%;
+  line-height: 180%;
 }
 .welcome .right h1 {
   font-size: 30px;
@@ -88,6 +88,16 @@ section {
 }
 .customers ul li {
   list-style-type: none;
+}
+.deploy-scale h1,
+.for-developers h1 {
+  font-size: 38px;
+  font-weight: bolder;
+}
+.deploy-scale p,
+.for-developers p {
+  font-size: 20px;
+  line-height: 180%;
 }
 .deploy-scale .list-border ul li {
   list-style-type: none;
@@ -105,10 +115,18 @@ section {
 .deploy-scale .grid {
   padding: 60px 0;
 }
-
 .deploy-scale .grid h4 {
   color:  #031b4e;
   font-weight: bold;
+}
+.deploy-scale .grid p {
+  font-size: 16px;
+}
+.for-developers img {
+  border-radius: 10px;
+}
+.for-developers .p-15 {
+  font-size: 15px;
 }
 
 /* XS-DEVICES */
@@ -118,7 +136,7 @@ section {
 }
 /* SM-DEVICES */
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 992px) {
 .welcome .left h1 {
   font-size: 50px;
   margin-bottom: 30px;
@@ -126,11 +144,12 @@ section {
 .welcome .left p {
   font-size: 20px;
   margin-bottom: 30px;
+
 }
 }
 /* MD-DEVICES */
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media all and (min-width: 992px) and (max-width: 1200px) {
 }
 /* LG_DEVICES */
 /* Large devices (large desktops, 1200px and up) */
