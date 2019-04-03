@@ -86,3 +86,29 @@ section {
 .customers ul li {
   list-style-type: none;
 }
+
+/* XS-DEVICES */
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+
+}
+/* SM-DEVICES */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+.welcome .left h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.welcome .left p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+}
+/* MD-DEVICES */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/* LG_DEVICES */
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1220px) {
+}
