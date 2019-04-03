@@ -1,6 +1,9 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+section {
+  padding: 90px 0;
+}
 .navbar {
   background-color: #ffffff;
   margin-bottom: 0;
@@ -27,13 +30,14 @@ body {
 .bg-image {
   background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
   background-size: cover;
-  padding: 90px 0;
   color: #ffffff;
 }
 .bg-blue {
   background-color: blue;
-  padding: 90px 0;
   color: #ffffff;
+}
+.bg-grey {
+  background-color: #f3f5f9;
 }
 .color-blue {
   color: #0069ff;
@@ -43,6 +47,9 @@ body {
 }
 .mtb-20 {
   margin: 20px 0;
+}
+.w-100 {
+  width: 100%;
 }
 .welcome form {
   background-color: #ffffff;
@@ -68,4 +75,14 @@ body {
 .welcome .right h1 {
   font-size: 30px;
   font-weight: bold;
+}
+.customers h4 {
+  font-weight: bolder;
+  opacity: .4;
+}
+.customers ul {
+  display: inline-block;
+}
+.customers ul li {
+  list-style-type: none;
 }
