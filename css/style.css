@@ -1,11 +1,17 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 .navbar {
   background-color: #ffffff;
+  margin-bottom: 0;
 }
 .navbar-header > .navbar-brand {
   color: #0069ff;
+  font-weight: bolder;
 }
 .nav.navbar-nav li a {
   color: #031b4e;
+  font-weight: bold;
 }
 .nav.navbar-nav li a:hover {
   color: #0069ff;
@@ -17,4 +23,43 @@
 .navbar-btn:hover {
   background-color: #0069ff;
   color: #ffffff;
+}
+.bg-blue {
+  background-color: blue;
+  padding: 90px 0;
+  color: #ffffff;
+}
+.color-blue {
+  color: #0069ff;
+}
+.mb-35 {
+  margin-bottom: 35px;
+}
+.mtb-20 {
+  margin: 20px 0;
+}
+.welcome form {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 25px;
+  color: #000000;
+}
+.welcome .green-btn {
+  background-color: #15cd72;
+  color: #ffffff;
+}
+.welcome .form-control {
+  height: 50px;
+}
+.welcome .left h1 {
+  font-size: 65px;
+  font-weight: bold;
+}
+.welcome .left p {
+  font-size: 25px;
+  line-height: 120%;
+}
+.welcome .right h1 {
+  font-size: 30px;
+  font-weight: bold;
 }
