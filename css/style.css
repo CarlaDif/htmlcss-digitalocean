@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #ffffff;
+}
+.navbar-header > .navbar-brand {
+  color: #0069ff;
+}
+.nav.navbar-nav li a {
+  color: #031b4e;
+}
+.nav.navbar-nav li a:hover {
+  color: #0069ff;
+}
+.navbar-btn {
+  border: 1px solid #0069ff;
+  color: #0069ff;
+}
+.navbar-btn:hover {
+  background-color: #0069ff;
+  color: #ffffff;
+}
