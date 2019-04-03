@@ -24,6 +24,12 @@ body {
   background-color: #0069ff;
   color: #ffffff;
 }
+.bg-image {
+  background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+  background-size: cover;
+  padding: 90px 0;
+  color: #ffffff;
+}
 .bg-blue {
   background-color: blue;
   padding: 90px 0;
