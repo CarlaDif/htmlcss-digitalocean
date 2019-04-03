@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 section {
   padding: 90px 0;
@@ -69,7 +69,7 @@ section {
 }
 .welcome .left h1 {
   font-size: 65px;
-  font-weight: bold;
+  font-weight: 900;
 }
 .welcome .left p {
   font-size: 25px;
@@ -90,9 +90,11 @@ section {
   list-style-type: none;
 }
 .deploy-scale h1,
-.for-developers h1 {
+.for-developers h1,
+.features h1 {
   font-size: 38px;
   font-weight: bolder;
+  margin-bottom: 35px;
 }
 .deploy-scale p,
 .for-developers p {
@@ -115,18 +117,25 @@ section {
 .deploy-scale .grid {
   padding: 60px 0;
 }
-.deploy-scale .grid h4 {
+.deploy-scale .grid h4,
+.features h4 {
   color:  #031b4e;
   font-weight: bold;
 }
-.deploy-scale .grid p {
+.deploy-scale .grid p,
+.features .grid p  {
   font-size: 16px;
+  line-height: 180%;
 }
 .for-developers img {
   border-radius: 10px;
 }
 .for-developers .p-15 {
   font-size: 15px;
+}
+.features a {
+  font-weight: bold;
+  display: block;
 }
 
 /* XS-DEVICES */
