@@ -27,13 +27,14 @@ section {
   background-color: #0069ff;
   color: #ffffff;
 }
-.bg-image {
+.welcome {
   background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
   background-size: cover;
   color: #ffffff;
 }
-.bg-blue {
-  background-color: blue;
+.speed-test {
+  background-image: url('../img/world.png');
+    background-size: cover;
   color: #ffffff;
 }
 .bg-grey {
@@ -91,7 +92,8 @@ section {
 }
 .deploy-scale h1,
 .for-developers h1,
-.features h1 {
+.features h1,
+.speed-test h1 {
   font-size: 38px;
   font-weight: bolder;
   margin-bottom: 35px;
@@ -137,7 +139,31 @@ section {
   font-weight: bold;
   display: block;
 }
-
+.table>tbody>tr {
+  height: 45px;
+}
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+  line-height: 200%;
+  border-top: none;
+  border-bottom: 1px solid rgba(255,255,255,.5);
+}
+.table a {
+  font-size: 13px;
+  font-weight: bold;
+  color: #00d7d2;
+}
+.table a:hover {
+  color: #0069ff;
+  text-decoration: none;
+}
+.table a>i {
+  font-size: 10px;
+}
 /* XS-DEVICES */
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 768px) {
