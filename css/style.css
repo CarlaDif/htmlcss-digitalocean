@@ -40,6 +40,9 @@ section {
 .bg-grey {
   background-color: #f3f5f9;
 }
+.bg-white {
+  background-color: #ffffff;
+}
 .color-blue {
   color: #0069ff;
 }
@@ -50,7 +53,8 @@ section {
   margin-bottom: 55px;
 }
 .mtb-20 {
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .w-100 {
   width: 100%;
@@ -93,7 +97,8 @@ section {
 .deploy-scale h1,
 .for-developers h1,
 .features h1,
-.speed-test h1 {
+.speed-test h1,
+.team h1 {
   font-size: 38px;
   font-weight: bolder;
   margin-bottom: 35px;
@@ -152,17 +157,33 @@ section {
   border-top: none;
   border-bottom: 1px solid rgba(255,255,255,.5);
 }
-.table a {
+.table a,
+.team a {
   font-size: 13px;
   font-weight: bold;
   color: #00d7d2;
 }
-.table a:hover {
+.table a:hover,
+.team a:hover {
   color: #0069ff;
   text-decoration: none;
 }
 .table a>i {
   font-size: 10px;
+}
+.team .box-team {
+  border-radius: 5px;
+}
+.team h3,
+.team p,
+.team small {
+  line-height: 180%;
+  opacity: .4;
+}
+.team a {
+  display: inline-block;
+  margin-top: 55px;
+  margin-bottom: 55px;
 }
 /* XS-DEVICES */
 /* Extra small devices (phones, less than 768px) */
