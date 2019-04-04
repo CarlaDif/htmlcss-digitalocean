@@ -27,7 +27,8 @@ section {
   background-color: #0069ff;
   color: #ffffff;
 }
-.welcome {
+.welcome,
+.get-started {
   background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
   background-size: cover;
   color: #ffffff;
@@ -184,6 +185,21 @@ section {
   display: inline-block;
   margin-top: 55px;
   margin-bottom: 55px;
+}
+.get-started .col-md-4 {
+  padding: 10px 60px;
+}
+.get-started h1 {
+  font-weight: bold;
+}
+.get-started .white-btn {
+  color: #0069ff;
+  font-weight: bold;
+}
+.get-started .white-btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #0069ff;
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 /* XS-DEVICES */
 /* Extra small devices (phones, less than 768px) */
