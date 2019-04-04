@@ -1,7 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-section {
+section,
+footer {
   padding: 90px 0;
 }
 .navbar {
@@ -56,6 +57,9 @@ section {
 .mtb-20 {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.mt-20 {
+  margin-top: 20px;
 }
 .w-100 {
   width: 100%;
@@ -136,7 +140,7 @@ section {
   line-height: 180%;
 }
 .for-developers img {
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .for-developers .p-15 {
   font-size: 15px;
@@ -174,6 +178,7 @@ section {
 }
 .team .box-team {
   border-radius: 5px;
+  border: 1px solid rgba(3,27,78,.2);
 }
 .team h3,
 .team p,
@@ -197,9 +202,41 @@ section {
   font-weight: bold;
 }
 .get-started .white-btn:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   color: #0069ff;
   border: 1px solid rgba(255, 255, 255, 0);
+}
+footer {
+  background-color: #010e28;
+  color: rgba(255, 255, 255, 0.5);
+}
+footer .social-icon {
+  padding: 0;
+  margin: 30px 0;
+}
+footer .social-icon a i {
+  width: calc(100%/7);
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+footer h5 {
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+footer ul li {
+  margin: 15px 0;
+}
+footer ul li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+footer ul li a:hover,
+footer .social-icon a:hover i {
+  color: #ffffff;
+  text-decoration: none;
 }
 /* XS-DEVICES */
 /* Extra small devices (phones, less than 768px) */
