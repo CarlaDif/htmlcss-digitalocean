@@ -100,6 +100,7 @@ footer {
 }
 .customers ul li {
   list-style-type: none;
+  margin-left: 0;
 }
 .deploy-scale h1,
 .for-developers h1,
@@ -127,6 +128,9 @@ footer {
 .deploy-scale .list-border ul li:first-child {
   border-left: 2px solid #0069ff;
   color: #031b4e;
+}
+.deploy-scale .col-md-4 {
+  margin-left: 0;
 }
 .deploy-scale .grid {
   padding: 60px 0;
@@ -286,6 +290,13 @@ footer {
 .welcome .left p {
   margin-bottom: 30px;
 }
+.customers ul li {
+  margin-left: 0;
+}
+.deploy-scale .list-border {
+  display: block;
+}
+
 }
 /* MD-DEVICES */
 /* Medium devices (desktops, 992px and up) */
