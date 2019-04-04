@@ -9,7 +9,9 @@ footer {
   background-color: #ffffff;
   margin-bottom: 0;
 }
-.navbar-header > .navbar-brand {
+.navbar-header > .navbar-brand,
+.navbar-header > .navbar-brand:hover,
+.navbar-header > .navbar-brand:visited {
   color: #0069ff;
   font-weight: bolder;
 }
@@ -247,14 +249,12 @@ footer .social-icon a:hover i {
 /* Small devices (tablets, 768px and up) */
 @media all and (min-width: 768px) and (max-width: 992px) {
 .welcome .left h1 {
-  font-size: 50px;
   margin-bottom: 30px;
 }
 .welcome .left p {
-  font-size: 20px;
   margin-bottom: 30px;
-
 }
+
 }
 /* MD-DEVICES */
 /* Medium devices (desktops, 992px and up) */
