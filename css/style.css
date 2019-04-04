@@ -243,7 +243,39 @@ footer .social-icon a:hover i {
 /* XS-DEVICES */
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 768px) {
-
+* {
+  margin:0;
+  padding; 0;
+}
+section,
+footer {
+  padding: 20px 0;
+}
+.welcome .left h1 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+.welcome .left p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.customers ul {
+  padding-left: 0;
+}
+.deploy-scale .list-border {
+  display: none;
+}
+.table {
+  margin-bottom: 0;
+}
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+  padding: 5px 0;
+}
 }
 /* SM-DEVICES */
 /* Small devices (tablets, 768px and up) */
@@ -254,7 +286,6 @@ footer .social-icon a:hover i {
 .welcome .left p {
   margin-bottom: 30px;
 }
-
 }
 /* MD-DEVICES */
 /* Medium devices (desktops, 992px and up) */
