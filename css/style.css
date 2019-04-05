@@ -1,6 +1,34 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+header {
+  height: 90px;
+}
+header .navbar-fixed-top > .navbar-before {
+  border-bottom: 1px solid rgba(3,27,78,.2);
+  height: 40px;
+  padding: 10px 15px;
+}
+header .navbar-before a:hover {
+  text-decoration: none;
+  color: #0069ff;
+}
+header .navbar-fixed-top .navbar-before .navbar-right ul {
+  padding-right: 15px;
+  margin: 0;
+}
+header .navbar-fixed-top .navbar-before .navbar-right ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+header .navbar-before .navbar-right ul li a {
+  color: rgba(3,27,78,.7);
+}
+header .navbar-before a {
+  color: rgba(3,27,78,.7);
+  font-size: 12px;
+  font-weight: normal;
+}
 section,
 footer {
   padding: 90px 0;
@@ -8,6 +36,9 @@ footer {
 .navbar {
   background-color: #ffffff;
   margin-bottom: 0;
+}
+header .navbar-header {
+  height: 50px;
 }
 .navbar-header > .navbar-brand,
 .navbar-header > .navbar-brand:hover,
@@ -25,10 +56,14 @@ footer {
 .navbar-btn {
   border: 1px solid #0069ff;
   color: #0069ff;
+  margin-right: 15px;
 }
 .navbar-btn:hover {
   background-color: #0069ff;
   color: #ffffff;
+}
+.welcome {
+  height: 100vh;
 }
 .welcome,
 .get-started {
@@ -37,8 +72,8 @@ footer {
   color: #ffffff;
 }
 .speed-test {
-  background-image: url('../img/world.png');
-    background-size: cover;
+  background: #031b4e url('https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg');
+  background-size: cover;
   color: #ffffff;
 }
 .bg-grey {
@@ -66,6 +101,9 @@ footer {
 .w-100 {
   width: 100%;
 }
+.relative {
+  position: relative;
+}
 .welcome form {
   background-color: #ffffff;
   border-radius: 5px;
@@ -79,13 +117,23 @@ footer {
 .welcome .form-control {
   height: 50px;
 }
+.welcome .left,
+.welcome .right {
+  height: 450px;
+}
+.welcome .left .welcome-aboslute {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
 .welcome .left h1 {
   font-size: 65px;
   font-weight: 900;
 }
 .welcome .left p {
   font-size: 25px;
-  line-height: 180%;
+  line-height: 150%;
 }
 .welcome .right h1 {
   font-size: 30px;
@@ -95,19 +143,15 @@ footer {
   font-weight: bolder;
   opacity: .4;
 }
-.customers ul {
-  display: inline-block;
-}
-.customers ul li {
-  list-style-type: none;
-  margin-left: 0;
-}
+.welcome h1,
+.welcome form h1,
 .deploy-scale h1,
 .for-developers h1,
 .features h1,
 .speed-test h1,
-.team h1 {
-  font-size: 38px;
+.team h1,
+.get-started h1 {
+  font-size: 35px;
   font-weight: bolder;
   margin-bottom: 35px;
 }
@@ -116,7 +160,7 @@ footer {
   font-size: 20px;
   line-height: 180%;
 }
-.deploy-scale .list-border ul li {
+.deploy-scale .list-left ul li {
   list-style-type: none;
   height: 50px;
   line-height: 50px;
@@ -125,23 +169,24 @@ footer {
   color: rgba(3,27,78,.5);
   font-weight: bold;
 }
-.deploy-scale .list-border ul li:first-child {
+.deploy-scale .list-left ul li:first-child {
   border-left: 2px solid #0069ff;
   color: #031b4e;
 }
 .deploy-scale .col-md-4 {
   margin-left: 0;
 }
-.deploy-scale .grid {
-  padding: 60px 0;
+.deploy-scale .list-left,
+.deploy-scale .list {
+  padding-top: 60px;
 }
-.deploy-scale .grid h4,
+.deploy-scale h4,
 .features h4 {
   color:  #031b4e;
   font-weight: bold;
 }
-.deploy-scale .grid p,
-.features .grid p  {
+.deploy-scale .list p,
+.features .list p  {
   font-size: 16px;
   line-height: 180%;
 }
@@ -182,9 +227,13 @@ footer {
 .table a>i {
   font-size: 10px;
 }
-.team .box-team {
+/* .team  */ .box-team {
   border-radius: 5px;
   border: 1px solid rgba(3,27,78,.2);
+}
+.team img {
+  height: 30px;
+  margin-top: 55px;
 }
 .team h3,
 .team p,
@@ -255,14 +304,28 @@ section,
 footer {
   padding: 20px 0;
 }
+header {
+  height: 50px;
+}
+header .navbar-before {
+  display: none;
+}
+.welcome {
+  height: 800px;
+}
+.welcome .left,
+.welcome .right {
+  height: 250px;
+}
 .welcome .left h1 {
-  margin-bottom: 15px;
+  margin-bo ttom: 15px;
   font-size: 30px;
 }
 .welcome .left p {
   font-size: 18px;
   margin-bottom: 30px;
 }
+
 .customers ul {
   padding-left: 0;
 }
@@ -284,8 +347,21 @@ footer {
 /* SM-DEVICES */
 /* Small devices (tablets, 768px and up) */
 @media all and (min-width: 768px) and (max-width: 992px) {
+* {
+  margin:0;
+  padding; 0;
+}
+.navbar-header > .navbar-brand,
+.navbar-header > .navbar-brand:hover,
+.navbar-header > .navbar-brand:visited {
+  font-size: 25px;
+}
+.navbar-header > .navbar-brand span {
+  display: none;
+}
 .welcome .left h1 {
   margin-bottom: 30px;
+  font-size: 65px;
 }
 .welcome .left p {
   margin-bottom: 30px;
